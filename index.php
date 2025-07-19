@@ -145,9 +145,7 @@ foreach ($teams as $team) {
         <!-- Admin Panel -->
         <div class="admin-panel">
             <h3>🛠️ Admin Panel</h3>
-            <a href="admin/add_team.php" class="admin-btn btn-success">➕ Add New Team</a>
             <a href="admin/manage_teams.php" class="admin-btn btn-warning">⚙️ Manage Teams</a>
-            <a href="admin/import_export.php" class="admin-btn btn-primary">📊 Import/Export</a>
         </div>
 
         <!-- Results Section -->

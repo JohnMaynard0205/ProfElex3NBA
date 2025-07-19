@@ -226,7 +226,6 @@ $total_teams = count($teams);
 
             <div style="display: flex; justify-content: between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 1rem;">
                 <h2>📋 Teams Management</h2>
-                <a href="add_team.php" class="admin-btn btn-success">➕ Add New Team</a>
             </div>
 
             <div class="search-bar">
