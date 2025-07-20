@@ -1,0 +1,27 @@
+{
+  "name": "NBA Teams Database - Azure Configuration",
+  "description": "Template for Azure App Service application settings. Copy these settings to your Azure App Service Configuration.",
+  "settings": {
+    "DB_HOST": "your-azure-mysql-server.mysql.database.azure.com",
+    "DB_NAME": "nba_teams_db",
+    "DB_USER": "your-admin-username@your-azure-mysql-server",
+    "DB_PASSWORD": "your-strong-password",
+    "ENVIRONMENT": "production",
+    "PHP_INI_SCAN_DIR": "/usr/local/etc/php/conf.d:/usr/local/etc/php/conf.d/custom",
+    "WEBSITES_ENABLE_APP_SERVICE_STORAGE": "false",
+    "WEBSITES_CONTAINER_START_TIME_LIMIT": "600"
+  },
+  "connectionStrings": {
+    "DefaultConnection": {
+      "value": "Database=nba_teams_db;Data Source=your-azure-mysql-server.mysql.database.azure.com;User Id=your-admin-username@your-azure-mysql-server;Password=your-strong-password;",
+      "type": "MySql"
+    }
+  },
+  "instructions": [
+    "1. Replace 'your-azure-mysql-server' with your actual Azure MySQL server name",
+    "2. Replace 'your-admin-username' with your MySQL admin username",
+    "3. Replace 'your-strong-password' with your secure password",
+    "4. Add these settings in Azure Portal under App Service > Configuration > Application Settings",
+    "5. Make sure to restart your App Service after adding these settings"
+  ]
+} 
