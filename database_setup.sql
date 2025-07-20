@@ -78,4 +78,4 @@ SELECT
     team_colors,
     description,
     CONCAT(team_name, ' ', city, ' ', conference, ' ', division, ' ', arena, ' ', head_coach) AS search_text
-FROM nba_teams; 
+FROM nba_teams;
